@@ -25,7 +25,7 @@ public class DataReceiveResource {
 
         Date now = new Date();
         log.info("Now:"+ now.toString());
-        log.info(data);
+        log.info(data.toString());
         return Response.status(Response.Status.OK).build();
     }
 
